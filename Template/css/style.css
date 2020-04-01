@@ -39,7 +39,7 @@ html { height: 100%; width: 100%; padding: 0; margin: 0 }
 body { font-size: 14px; line-height: 1.5; color: #959798; height: 100%; width: 100%; padding: 0; margin: 0; text-align: left; font-family: "Heebo", sans-serif; font-weight: 400; }
 ol { margin-bottom: 0 }
 ul { margin-bottom: 0 }
-a { -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out; color: #1c46f2; text-decoration: none }
+a { -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out; color: rgba(242, 28, 28, 0.63); text-decoration: none }
 a:active { color: #1c46f2; text-decoration: none; color: #1c46f2; text-decoration: none }
 a:focus { color: #1c46f2; text-decoration: none }
 a:hover { color: #1c46f2; text-decoration: none }
@@ -54,9 +54,9 @@ input[type="email"] { -webkit-appearance: none; outline: none }
 input[type="search"] { -webkit-appearance: none; outline: none }
 input[type="password"] { -webkit-appearance: none; outline: none }
 iframe { width: 100%; }
-::selection { color: #fff; background: #1c46f2 }
-::-moz-selection { color: #fff; background: #1c46f2 }
-::-ms-selection { color: #fff; background: #1c46f2 }
+::selection { color: #fff; background: rgba(242, 28, 28, 0.63) }
+::-moz-selection { color: #fff; background: rgba(242, 28, 28, 0.63) }
+::-ms-selection { color: #fff; background: rgba(242, 28, 28, 0.63) }
 
 /* ----------------------------------------
 * Hedding typo
@@ -88,7 +88,7 @@ h6 a { color: inherit }
 .btn:not(:disabled):not(.disabled).active:focus { box-shadow: none }
 .btn:not(:disabled):not(.disabled):active:focus { box-shadow: none }
 .btn i { padding-left: 5px }
-.btn-primary { background: #1c46f2; border-color: #1c46f2 }
+.btn-primary { background: rgba(242, 28, 28, 0.63); border-color: rgba(242, 28, 28, 0.63) }
 .btn-primary:hover { background: #161a34; color: #fff; border-color: #161a34 }
 .btn-primary:not(:disabled):not(.disabled):active { background: #161a34; color: #fff; border-color: #161a34 }
 .btn-primary:focus { background: #161a34; color: #fff; border-color: #161a34 }
@@ -99,7 +99,7 @@ h6 a { color: inherit }
 .btn-outline-secondary:focus { border-color: #1c46f2; color: #fff; background: #1c46f2 }
 .btn-outline-secondary:active { border-color: #1c46f2; color: #fff; background: #1c46f2 }
 .btn-outline-secondary:not(:disabled):not(.disabled):active { border-color: #1c46f2; color: #fff; background: #1c46f2 }
-.btn-link { border-bottom: 2px solid #1c46f2; text-decoration: none; padding: 0 !important; color: #1c46f2 }
+.btn-link { border-bottom: 2px solid rgba(242, 28, 28, 0.63); text-decoration: none; padding: 0 !important; color: rgba(242, 28, 28, 0.63) }
 .btn-link:hover { color: #161a34; text-decoration: none; border-bottom-color: #161a34 }
 .btn-link:focus { color: #161a34; text-decoration: none; border-bottom-color: #161a34 }
 
@@ -118,7 +118,7 @@ h6 a { color: inherit }
 .title .title-shadow { font-size: 80px; line-height: 40px; font-weight: 500; position: absolute; top: 0; left: 0; color: #fff; z-index: -1; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: rgba(22, 26, 52, 0.1) }
 
 /* blockquote */
-.blockquote { border-left: 5px solid #1c46f2; padding: 10px 24px 10px 24px }
+.blockquote { border-left: 5px solid rgba(242, 28, 28, 0.63); padding: 10px 24px 10px 24px }
 
 /* ----------------------------------------
 * lorder
@@ -132,7 +132,7 @@ h6 a { color: inherit }
 .header { background: #161a34; display: flex; align-items: center; height: 80px; padding: 0 80px; position: fixed; top: 0; width: 100%; z-index: 99 }
 .header .logo { padding: 20px }
 .header .menu { margin-right: 10px }
-.header .menu .menu-icon { padding: 25px 32px; display: block; font-size: 20px; background: #1c46f2; color: #fff }
+.header .menu .menu-icon { padding: 25px 32px; display: block; font-size: 20px; background: rgba(242, 28, 28, 0.838); color: #fff }
 .header .social ul { display: flex }
 .header .social ul li a { display: block; margin-left: 10px; font-weight: 500; color: #fff }
 .header .social ul li a i { padding-right: 6px }
@@ -163,7 +163,7 @@ h6 a { color: inherit }
 .wrapper { padding-top: 80px; padding-left: 80px }
 
 /* Text color */
-.text-primary { color: #1c46f2 !important }
+.text-primary { color: rgba(242, 28, 28, 0.63) !important }
 
 /* Bg color */
 .bg-primary { background-color: #1c46f2 !important }
@@ -271,7 +271,7 @@ h6 a { color: inherit }
 * Progress
 * ---------------------------------------*/
 .progress { margin-bottom: 10px; position: relative }
-.progress-bar { height: 0; justify-content: flex-start; background: #1c46f2 }
+.progress-bar { height: 0; justify-content: flex-start; background: rgba(242, 28, 28, 0.63) }
 .progress-text { position: absolute; transform: rotate(-90deg); left: 0px; bottom: 20px; color: #fff; right: 0; font-size: 14px; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1 }
 .progress-bar-vertical { width: 50px; min-height: 80%; display: flex; align-items: flex-end; margin: 0 30px; float: left; border-radius: 0 }
 .progress-bar-vertical .progress-bar { width: 100%; height: 0; -webkit-transition: height 0.6s ease; -o-transition: height 0.6s ease; transition: height 0.6s ease }
@@ -280,9 +280,9 @@ h6 a { color: inherit }
 * counter
 * ---------------------------------------*/
 .counter { padding: 60px 50px; border: 4px solid #efeded; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out; height: 100% }
-.counter .counter-icon { color: #1c46f2; font-size: 35px; line-height: 35px; margin-right: 10px }
+.counter .counter-icon { color: rgba(242, 28, 28, 0.63); font-size: 35px; line-height: 35px; margin-right: 10px }
 .counter .counter-number { font-size: 38px; line-height: 38px; font-weight: 500; color: #161a34 }
-.counter:hover { border-color: #1c46f2 }
+.counter:hover { border-color: rgba(242, 28, 28, 0.63) }
 
 /* ----------------------------------------
 * Timeline
@@ -302,18 +302,18 @@ h6 a { color: inherit }
 * ---------------------------------------*/
 .portfolio .filters-group { display: inline-flex; border: 4px solid #efeded; margin-bottom: 30px }
 .portfolio .filters-group .button { padding: 14px 30px; border: none; background: transparent; font-weight: 500; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out; outline: none }
-.portfolio .filters-group .button.is-checked { background: #1c46f2; color: #fff }
+.portfolio .filters-group .button.is-checked { background: rgba(242, 28, 28, 0.63); color: #fff }
 .portfolio .grid-item { width: 33.333% }
 .portfolio-item { position: relative; margin: 10px }
 .portfolio-item .portfolio-item-image { position: relative; text-align: center }
 .portfolio-item .portfolio-item-image:before { position: absolute; content: ""; width: 100%; background: rgba(22, 26, 52, 0.6); width: 100%; height: 100%; opacity: 0; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out }
 .portfolio-item .portfolio-item-caption { position: relative; padding: 30px 0; width: 100% }
 .portfolio-item .portfolio-item-caption a { font-size: 18px; font-weight: 500; display: block; color: #161a34 }
-.portfolio-item .portfolio-item-caption a:hover { color: #1c46f2 }
+.portfolio-item .portfolio-item-caption a:hover { color: rgba(242, 28, 28, 0.63) }
 .portfolio-item .portfolio-item-category li { display: inline-block; margin-right: 2px }
 .portfolio-item .portfolio-item-category li a { font-size: 12px }
 .portfolio-item .portfolio-item-hover { position: absolute; z-index: 1; top: 40%; transform: translateY(-50%); left: 0; right: 0; opacity: 0; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out }
-.portfolio-item .portfolio-item-hover a { width: 50px; height: 50px; line-height: 50px; background: #fff; border-radius: 50%; color: #1c46f2; display: inline-block; text-align: center }
+.portfolio-item .portfolio-item-hover a { width: 50px; height: 50px; line-height: 50px; background: #fff; border-radius: 50%; color: rgba(242, 28, 28, 0.63); display: inline-block; text-align: center }
 .portfolio-item:hover .portfolio-item-image:before { opacity: 1 }
 .portfolio-item:hover .portfolio-item-hover { top: 50%; opacity: 1 }
 
@@ -374,8 +374,8 @@ h6 a { color: inherit }
 /* ----------------------------------------
 * Service
 * ---------------------------------------*/
-.service-block .service-block-icon { width: 100px; height: 100px; text-align: center; background: rgba(28, 70, 242, 0.1); display: inline-block; line-height: 100px; font-size: 40px; border-radius: 40% 70% 95% 60% / 75% 94% 52% 80%; color: #1c46f2; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out }
-.service-block:hover .service-block-icon { background: #1c46f2; color: #fff }
+.service-block .service-block-icon { width: 100px; height: 100px; text-align: center; background: rgba(28, 70, 242, 0.1); display: inline-block; line-height: 100px; font-size: 40px; border-radius: 40% 70% 95% 60% / 75% 94% 52% 80%; color: rgba(242, 28, 28, 0.63); -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; transition: all .4s ease-in-out }
+.service-block:hover .service-block-icon { background: rgba(242, 28, 28, 0.63); color: #fff }
 .service-block:hover .btn-link { border-bottom-color: #161a34; color: #161a34 }
 
 /* ----------------------------------------
@@ -414,7 +414,7 @@ h6 a { color: inherit }
 /* ----------------------------------------
 * Contact
 * ---------------------------------------*/
-.contact-info i { font-size: 30px; line-height: 30px; margin-right: 20px; color: #1c46f2 }
+.contact-info i { font-size: 30px; line-height: 30px; margin-right: 20px; color: rgba(242, 28, 28, 0.63) }
 .contact-info .call { font-size: 24px; line-height: 24px; color: #161a34; font-weight: 500 }
 
 /* ----------------------------------------

@@ -1,0 +1,29 @@
+/* ----------------------------------------
+* background color
+* ---------------------------------------*/
+ .header .menu .menu-icon, .btn-primary, #dismiss, .progress-bar, .service-block:hover .service-block-icon, .portfolio .filters-group .button.is-checked, .work-step .work-step-number, .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover, .social-02 ul li a:hover, .owl-carousel .owl-nav button.owl-prev:active, .owl-carousel .owl-nav button.owl-prev:focus, .owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-next:active, .blog-single .blog-tag ul li a:hover, .pagination .page-item .page-link:hover, .owl-carousel button.owl-dot.active, .owl-carousel button.owl-dot:hover, .btn-outline-secondary:hover { background: #75bf6e; }
+
+/* ----------------------------------------
+* Color
+* ---------------------------------------*/
+ a, a:hover, .btn-link, .nav .nav-item .nav-link:hover, .counter .counter-icon, .service-block .service-block-icon, .portfolio-item .portfolio-item-hover a, .portfolio-item .portfolio-item-caption a:hover, .work-step .work-step-icon, .owl-carousel .owl-nav button.owl-prev , .owl-carousel .owl-nav button.owl-next, .contact-info i, .blog .blog-meta a i, .blog .blog-meta a:hover { color: #75bf6e; }
+
+ .text-primary { color: #75bf6e !important;  }
+
+/* ----------------------------------------
+* Border Color
+* ---------------------------------------*/
+.btn-primary, .counter:hover, .form-control:focus, .pagination .page-item .page-link:hover, .btn-outline-secondary:hover { border-color: #75bf6e; }
+
+/* border-bottom */
+.btn-link { border-bottom-color: #75bf6e; }
+
+/* border-left */
+.blockquote{ border-left-color: #75bf6e; }
+
+ /* ----------------------------------------
+* Overlay color
+* ---------------------------------------*/
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .service-block .service-block-icon { background: rgba(#75bf6e, 0.1); }
+.owl-carousel button.owl-dot { background: rgba(#75bf6e, 0.2); }
+

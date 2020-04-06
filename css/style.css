@@ -385,7 +385,7 @@ h6 a {
 * header
 * ---------------------------------------*/
 .header {
-  background: #161a34;
+  background: #3c3c3c;
   display: flex;
   align-items: center;
   height: 80px;
@@ -444,7 +444,7 @@ h6 a {
   left: 0;
   width: 80px;
   top: 0;
-  background: #161a34;
+  background: #3c3c3c;
   height: 100%;
 }
 .left-bar .mail-info {

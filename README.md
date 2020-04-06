@@ -3,7 +3,7 @@
 
 <image src="/images/John_prof_2.jpg" >
 
-John W Pendergrass is a Communications training developer, English teacher, Full-Stack Web developer.
+John W Pendergrass is a Communications training developer, English teacher, and new Full-Stack Web developer.
 I'm a firm believer in learning new things, trying new things, messing up and then fixing new things. Trial and error are you best teachers. 
 
 **(mailto:john.pendergrass@me.com)**

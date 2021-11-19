@@ -1,5 +1,6 @@
 # John Pendergrass
 
+This is my portfolio.
 
 <image src="/images/John_prof_2.jpg" >
 
